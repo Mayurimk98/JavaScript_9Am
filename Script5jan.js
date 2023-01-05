@@ -84,12 +84,22 @@
 // }
 
 //1-5
+// let i = 1
+// while (i <= 5) { //1<=5 2<=5 3<=5 3
+//     if (i == 3) { //1==3  2==3 3==3
+//         continue
+//     }
+//     console.log(i) //1 2
+//     i++ //2 3
+// }
+
+
 let i = 1
 while (i <= 5) { //1<=5 2<=5 3<=5 3
     if (i == 3) { //1==3  2==3 3==3
         i++
         continue
     }
-    console.log(i) //1 2
+    console.log(i) //1 2 4 5
     i++ //2 3
 }
