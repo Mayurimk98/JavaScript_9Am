@@ -112,7 +112,7 @@ console.log(randomNumber) //4
 let userInput = Number(prompt('Enter any number between 1-5')) //4
 while (userInput != randomNumber) {  //4 !=4
     userInput = Number(prompt('Enter any number between 1-5'))
-    if (userInput === randomNumber) { 
+    if (userInput === randomNumber) {
         console.log('Guess correct')
         break;
     }
