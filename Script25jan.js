@@ -15,7 +15,7 @@
 //return => removed element array
 // let marks = [11, 22, 33, 44, 55, 66, 77, 88]
 // //            0   1  2    3   4   5   6   7
-// //arrayName.splice(start, no of delet element,replace1,replace2)
+// //arrayName.splice(startindex, no of delet element,replace1,replace2)
 
 // // console.log(marks.splice(1, 2, 100, 200)) //
 // // console.log(marks)
@@ -55,12 +55,22 @@
 //concat()
 let a = [2, 3, 4]
 let b = [10, 20, 30]
+let c=[99,90,98]
+let d=[100,200,300]
 
-let result = a.concat(b)
-console.log(result)
+// let result = a.concat(b)
+// console.log(result)
 
-let res1 = b.concat(a)
-console.log(res1)
+// let res1 = b.concat(a)
+// console.log(res1)
+
+console.log(a.concat(b)) //[2,3,4,10,20,30]
+console.log(b.concat(a)) //[10,20,30,2,3,4]
+
+console.log(a.concat(b).concat(c).concat(d))
+
+
+
 
 
 //slice()
