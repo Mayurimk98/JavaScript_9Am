@@ -39,11 +39,12 @@
 
 
 //at()
-// let marks = [11, 22, 33, 44, 55, 66, 77, 88]
-// //            0   1  2    3   4   5   6   7
+let marks = [11, 22, 33, 44, 55, 66, 77, 88]
+//            0   1  2    3   4   5   6   7
 
-// let a = marks.at(5)
-// console.log(a)
+let a1 = marks.at(5)
+console.log(a1)
+
 
 // let b = marks.at(7)
 // console.log(b)
