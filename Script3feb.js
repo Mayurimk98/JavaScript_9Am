@@ -111,27 +111,6 @@ ramesh.setLName('raut')
 ramesh.setAge(23)
 ramesh.setSkill('java')
 console.log(ramesh)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let a={}
 
 // let b=[]
