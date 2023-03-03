@@ -30,6 +30,25 @@ ulList.addEventListener('click', function (event) {
             ul.removeChild(li) //remove li from ul
         }
 
+        if (event.target.className == "up") {
+            let li = event.target.parentElement //li 
+            let ul = li.parentElement //ul
+            let prev = li.previousElementSibling //prev li element
+            if (prev) {
+                ul.insertBefore(li, prev)
+            }
+        }
+
+        if (event.target.className == "down") {
+            let li = event.target.parentElement //li
+            let ul = li.parentElement //ul
+            let next = li.nextElementSibling //next li element
+            if(next){
+                ul.insertBefore(next,li)
+            }
+
+        }
+
     }
 })
 
